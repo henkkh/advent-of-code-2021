@@ -20,6 +20,7 @@ fun main() {
                 return minFuel
             }
         }
+        return -1
     }
 
     fun part1(testInput: List<Int>): Int = minFuelDetection(testInput) { Math.abs(it) }
